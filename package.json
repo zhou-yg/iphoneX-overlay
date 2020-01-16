@@ -1,0 +1,29 @@
+{
+  "name": "iphonex-overlay",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build:react": "parcel build IPhoneXOverlay.tsx --no-minify --target node",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhou-yg/iphoneX-overlay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhou-yg/iphoneX-overlay/issues"
+  },
+  "homepage": "https://github.com/zhou-yg/iphoneX-overlay#readme",
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "less": "^3.10.3",
+    "parcel-bundler": "^1.12.4",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.4"
+  }
+}

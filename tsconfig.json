@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "downlevelIteration": true
+  }
+}
