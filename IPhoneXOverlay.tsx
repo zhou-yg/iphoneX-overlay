@@ -2,21 +2,21 @@ import * as React from 'react'
 import './IPhoneXOverlay.less'
 
 const IPhoneXOverlay: React.FC<{ 
-  width?: 375 | 750;
+  w?: 375 | 750;
   style?: React.CSSProperties
 }> = (props) =>{
   return (
-    <div className={`iphonex-overlay w${props.width}`}>
+    <div className={`iphonex-overlay w${props.w}`}>
       <div className="mask"></div>
       <div className="main-body" style={props.style}>
-
+        {props.children}
       </div>
     </div>
   );
 }
 IPhoneXOverlay.displayName = 'IPhoneXOverlay';
 IPhoneXOverlay.defaultProps = {
-  width: 750,
+  w: 750,
   style: {},
 };
 

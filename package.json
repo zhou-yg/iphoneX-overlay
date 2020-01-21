@@ -6,6 +6,7 @@
     "build:react": "parcel build IPhoneXOverlay.tsx --no-minify --target node",
     "dev": "parcel index.html"
   },
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhou-yg/iphoneX-overlay.git"

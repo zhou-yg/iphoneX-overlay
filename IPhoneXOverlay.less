@@ -1,21 +1,23 @@
+// :global{
+
 .iphonex-overlay {
   // transform: scale(0.5);
   transform-origin: top;
   // padding: 10px;
   position: relative;
   display: inline-block;
-  padding: 50px 56px 56px 58px;
+  padding: 37px;
 
   &.w375 {
-    padding: 25px 28px 28px 29px;
+    padding: 19px;
     .main-body {
-      border-radius: 39px;
+      border-radius: 37px;
       width: 375px;
       height: 812px;
     }
   }
   .mask {
-    background-image: url(./assets/iphonex-mask.png);
+    background-image: url(./assets/iphonex-mask-dark.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;    
     width: 100%;
@@ -24,12 +26,15 @@
     top: 0;
     left: 0;
     pointer-events: none;
+    z-index: 10;
   }
   
   .main-body {
-    border-radius: 75px;
+    // background-color: #666666;
+    border-radius: 79px;
     width: 750px;
     height: 1624px;
     position: relative;
   }
 }
+// }
